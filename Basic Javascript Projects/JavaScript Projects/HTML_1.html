@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Switchy Switch</title>
+        <link rel="stylesheet" href="CSS/CSS_1.css">
+        <script src="JavaScript/JavaScript_2.js"></script>
+    </head>
+    
+    <h1>What is your favorite fruit?</h1>
+    <h3>Pick your favorite fruit from this list:</h3>
+    <ul>
+        <li>Strawberry</li>
+        <li>Orange</li>
+        <li>Banana</li>
+        <li>Mango</li>
+        <li>Peaches</li>
+    </ul>
+    <h3>Enter your choice below:</h3>
+
+    <input id="Fruit_Input" type="text">
+    <button onclick="Fruit_Function() ">Submit Fruit</button>
+    <p id="Output"></p>
+
+    <h2>Click on the button to find out the mystery fruit</h2>
+    <h3 class="Click">?????</h3>
+    <h2 class="Click">????</h2>
+    <button onclick="Mystery() ">Click me!</button>
+    <br>
+    <br>
+
+    <form name="myForm" onsubmit="return validateForm()" method="post">
+        <label for="NF">New Fruit</label><br>
+        <input type="text" id="NF" name="NF">
+        <br>
+        <label for="fname">Your Full Name</label><br>
+        <input type="text" id="fname" name="fname">
+        <br>
+        <label for="email">Your Email</label><br>
+        <input type="text" id="email" name="email">
+        <br>
+        <br>
+        <input type="submit" value="Submit Me!">
+    </form>
+
+    <br>
+    <br>
+    <canvas id="FruityTooty" width="600" height="400" style="border:10px solid black;"></canvas>
+    <script src="JavaScript/JavaScript_1.js"></script>
+</html>
